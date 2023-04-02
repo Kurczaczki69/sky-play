@@ -1,0 +1,27 @@
+html::-webkit-scrollbar{
+    width: 0.69vw;
+}
+
+html::-webkit-scrollbar-thumb{
+    background-color: rgba(0, 0, 0, 10);
+    border:none;
+    border-radius: 1vw;
+    overflow: hidden;
+    padding: 0.1vw;
+}
+
+html::-webkit-scrollbar-track{
+    background-color: rgba(117, 113, 113, 0.374);
+    border:none;
+    border-radius: 2vw;
+    overflow: hidden;
+    padding: 0.1vw;
+}
+
+html::-webkit-scrollbar-track:hover{
+    background-color: (117, 113, 113, 0.374);
+}
+
+html::-webkit-scrollbar-thumb:hover{
+    background-color: rgba(255, 255, 255, 10);
+}

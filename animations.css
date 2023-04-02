@@ -1,0 +1,9 @@
+@keyframes border-bottom-animate{
+    0%{border-bottom: solid #fff 1px;}
+    50%{border-bottom: solid #fff 2px;}
+    100%{border-bottom: solid #fff 10px;}
+}
+
+#navbar:hover{
+    animation: border-bottom-animate 3s infinite linear ease-out;
+}
